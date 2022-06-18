@@ -19,11 +19,11 @@
 
         <property name="connection.autocommit">true</property>
 
-        <property name="hbm2ddl.auto">update</property>
+        <property name="hbm2ddl.auto">create</property>
 
         <property name="showsql">true</property>
 
-        <mapping class="domain.Pojo" ></mapping>
+        <!--<mapping class="domain.Pojo" ></mapping>-->
 
     </session-factory>
 
